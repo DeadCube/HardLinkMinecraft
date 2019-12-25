@@ -4,8 +4,8 @@ HardLink est un plugin permettant de faire en sorte qu'un site puisse envoyer de
 ## Configuration
 Téléchargez HardLink.jar et mettez le dans le dossier plugins de votre serveur bukkit/spigot . Pensez aussi à activer le **RCON** sur votre serveur .
 
-Je vous conseille de modifier la clef secrète dans le `config.yml` dans le dossier du plugin . Il ne vous reste plus qu'à configurer [la partie web](e) .
+Je vous conseille de modifier la clef secrète dans le `config.yml` dans le dossier du plugin . Il ne vous reste plus qu'à configurer [la partie web](https://github.com/DeadCube/HardLinkServer) .
 ## A propos
 Ce plugin à été développé par Fir3rl ! J'espère qu'il vous aidera bien ! N'hésitez pas à ouvrir des issues lors de problèmes où à me contacter sur discord (Fir3rl#5549) !
 
-[Aller voir la partie web php](url)
+[Aller voir la partie web php](https://github.com/DeadCube/HardLinkServer)
