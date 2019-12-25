@@ -1,4 +1,6 @@
 
+
+
 # HardLinkMinecraft
 HardLink est un plugin permettant de faire en sorte qu'un site puisse envoyer des évenements en temps réel sur un serveur Minecraft!
 ## Configuration
@@ -8,14 +10,17 @@ Je vous conseille de modifier la clef secrète dans le `config.yml` dans le doss
 ## Utiliser l'API
 Ajoutez l'archive JAR externe `HardLink.jar` à votre plugin . Vous pouvez récupérer l'évenement HardLinkRequestEvent .
 **Exemple d'utilisation**
-	getServer().getPluginManager().registerEvents(new Listener() {
-		@EventHandler
-		public void onHardLinkEvent(HardLinkRequestEvent e) {
-			String data = e.getData();
-			String key = e.getKey();
-		}
-	}, this);
+
+    getServer().getPluginManager().registerEvents(new Listener() {
+    	@EventHandler
+    	public void onHardLinkEvent(HardLinkRequestEvent e) {
+    		String data = e.getData();
+    		String key = e.getKey();
+    	}
+    }, this);
+
 ## A propos
 Ce plugin à été développé par Fir3rl ! J'espère qu'il vous aidera bien ! N'hésitez pas à ouvrir des issues lors de problèmes où à me contacter sur discord (Fir3rl#5549) !
 
 [Aller voir la partie web php](https://github.com/DeadCube/HardLinkServer)
+
